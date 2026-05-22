@@ -19,7 +19,9 @@
       font-family: Arial, sans-serif;
 
       background-color: #000000;
-
+        min-height: 100vh;
+       display: flex;
+       flex-direction: column;
     }
 
     header {
@@ -55,7 +57,7 @@
     }
 
     main {
-
+        flex: 1;  
       padding: 40px;
 
       text-align: center;
@@ -108,7 +110,7 @@
 
   <nav>
 
-    <a href="#">Início</a>
+    <a href="#inicio">Início</a>
 
     <a href="#">Sobre</a>
 
@@ -117,21 +119,25 @@
   </nav>
 
   <main>
+<section id="inicio">
 
-    <h2>Bem-vindo!</h2>
+        <h2>Bem-vindo!</h2>
 
     <p>Este é um site simples criado em HTML.</p>
 
     <a class="botao" href="#">Saiba mais</a>
 
+</section>
+ 
+
   </main>
 
   <footer>
 
-    © 2026 Meu Site
+    © 2026 Sitezinho criado por Brendinha
 
   </footer>
 
 </body>
 
-</html>
+</html> 
